@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+          <nav>
+            <h1 class="h1">My <span class="akshay">Portfolio</span></h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolia</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+          </nav>
+          <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Akshay malik</span>  <br> from Bareilly</h1>
+          </div>
+    </div>
+    </div>
+    <!-- ------------------------about---------------- -->
+    <div id="about">
+      <div class="container">
+
+        <div class="row">
+           
+            <div class="about-col-1">
+                <img src="./IMG_20221128_23154966.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+            <h1 class="sub-title">About <span class="malik">Me</span> </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est non doloremque blanditiis eum iste sequi vero delectus rerum voluptatem officia autem odio necessitatibus alias vel labore ut veniam, sunt adipisci magni provident! Reprehenderit reiciendis totam assumenda. Magnam, libero similique. Quae eos dicta commodi. Maxime accusantium aspernatur nobis iure voluptatibus dicta voluptatem optio, odit consequatur consequuntur facere enim, qui, aliquid dolorum? Voluptatem illum provident tempora, officiis ad perspiciatis dolores quos quasi.</p>
+       
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                
+            </div>
+            <div class="tab-content active-tab" id="skills">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing WEb/App interfaces</li>
+                    <li><span>Web Development</span><br>Designing WEb/App interfaces</li>
+                    <li><span>App Development</span><br>Designing WEb/App interfaces</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- -------------services-------------- -->
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My <span class="malik">Services</span></h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ea itaque at fuga aliquam numquam, expedita natus.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ea itaque at fuga aliquam numquam, expedita natus.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ea itaque at fuga aliquam numquam, expedita natus.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+   </div>
+
+<!-- ---------------portfolio------------ -->
+ 
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My <span class="malik">Work</span></h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./work-1.png" alt="">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connected you the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="./work-2.png" alt="">
+                <div class="layer">
+                    <h3>Shoping App</h3>
+                    <p>The app connected you the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="work">
+                <img src="./work-3.png" alt="">
+                <div class="layer">
+                    <h3>Payment App</h3>
+                    <p>The app connected you the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+        </div>
+     </div>
+
+   <a href="#" class="btn"><p>See More</p></a>
+    </div>
+ </div>
+
+ <!-- -----contact------ -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact <span class="malik">Me</span></h1>
+                <p><i class="fa-solid fa-paper-plane"></i> malikakshaya4200@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 8979530213</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/akshay-malik-a33565275/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <!-- cv add krna ha -->
+                <a href="" class="btn btn2"><h4>Download CV</h4></a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    
+ </div>
+ <div class="copyright">
+    <p>copyright <i class="fa-regular fa-copyright"></i> Akshay malik. Made with <i class="fa-solid fa-heart"></i> Easy Portfolio</p>
+</div>
+
+
+
+    <script>
+        var sidemenu = document.getElementById('sidemenu');
+
+        function openmenu(){
+          sidemenu.style.right='0';
+        }
+
+        function closemenu(){
+          sidemenu.style.right='-200px';
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwjNoktjBDK6ZknREf2nPMftEqLArb6Eo9KEkBWF3FkWOh8R5Kxwe9rbz0CwHV72EQa_Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+       const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response =>{
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+          })
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
